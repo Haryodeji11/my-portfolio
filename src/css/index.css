@@ -1,0 +1,217 @@
+*::before,
+*::after{
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 10rem;
+    background-color: green;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 7rem;
+    height: 3.5rem;
+    margin: 0;
+    outline: 10rem;
+}
+
+.navbar{
+    width: 98.5%;
+    height: 7rem;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+
+}
+
+.nav_link{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav_link:hover{
+    cursor: pointer;
+    color: green;
+    border-bottom: 2px solid white;
+    outline: 2rem white;
+    /* transition: all 0.5s; */
+}
+
+ul{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+
+li{
+    list-style-type: none;
+    font-size: 1.5rem;
+    color: white;
+}
+
+li Link{
+    color: white;
+}
+
+.Container{
+    width: 94vw;
+    height: 100%;
+    padding: 2rem;
+}
+
+.paragraph{
+    font-size: 2rem;
+    color: black;
+    line-height: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.post{
+    width: inherit;
+    height: 100%;
+    padding: 2rem;
+    background-color: whitesmoke;
+    margin-top: 5rem;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1.5rem;
+}
+
+.post_subject{
+    width: 40rem;
+    height: 30rem;
+    position: relative;
+}
+
+.post_subject_img{
+    width: 100%;
+    height: 100%;
+}
+
+.post_subject_text{
+    position: absolute;
+    top: 40%;
+    left: 9%;
+    font-weight: bold;
+    width: 80%;
+    height: 7rem;
+    text-align: center;
+    
+    font-size: 2rem;
+    color: white;
+    z-index: 100;
+}
+
+/* styling the footer section */
+.footer{
+    width: 100%;
+    height: 25rem;
+    background: black;
+    color: white;
+}
+.footer_container{
+    width: 100%;
+    height: 10rem;
+    margin-top: 7rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footer_container_img{
+    width: 15rem;
+    height: 7rem;
+    
+}
+.footer_container_links{
+    width: 30%;
+    height: 100%;
+    border: 1px solid red;
+}
+hr{
+    background: green;
+}
+.footer_copyright{
+    width: 100%;
+    height: 50%;
+    font-size: 4rem;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* styling the note section */
+.Note_description{
+    width: 100%;
+    height: 7rem;
+    font-size: 2rem;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+.Note_description:hover{
+    cursor: pointer;
+    color: green;
+    border-bottom: 2px solid white;
+}
+
+.notes_links{
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 2rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.notes_link{
+    width: 80%;
+    height: 6rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+    box-shadow: 0rem 0rem 1rem gray;
+    margin: 2rem 0 2rem 10rem;
+    font-size: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+Link{
+    color: white;
+}
+.paragaphs{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 3rem;
+}
